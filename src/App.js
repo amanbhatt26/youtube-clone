@@ -1,14 +1,14 @@
 import './App.css';
 import Header from './Components/Header';
 import Sidebar from './Components/Sidebar';
-function App() {
+import { SidebarContextProvider } from './Contexts/SidebarContext';
+const  App = ()=>{
   return (
-    <div>
-      <Header/>
-      <Sidebar/>
-
-      
-      
+    <div className='App'>
+      <SidebarContextProvider>
+        <Header/>
+        <Sidebar/>
+      </SidebarContextProvider>
     </div>
   );
 }
