@@ -43,7 +43,7 @@ const Sidebar = ()=>{
     return (
         <>
         { sbVis && 
-        <div className='flex flex-col h-full z-100 bg-lightGray pt-14 fixed w-fit left-0 overflow-y-auto overflow-x-hidden'>
+        <div className='flex flex-col h-full z-100 bg-lightGray pt-14 fixed w-fit left-0 overflow-y-auto overflow-x-hidden scrollbar'>
             
         <Menulist list={generallist}/>            
         <Menulist list={subslist} heading="SUBSCRIPTIONS"/>

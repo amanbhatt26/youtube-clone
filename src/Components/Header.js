@@ -8,7 +8,7 @@ const Header = ()=>{
         setSbVis(prevState=>!prevState)
     }
     return(
-        <header className="z-50 transition duration-150 fixed w-full flex flex-row justify-between bg-black text-white p-2 ">
+        <header className="z-10 transition duration-150 fixed top-0 w-[100%] flex flex-row justify-between bg-black text-white p-2 ">
             <span className='flex flex-row '>
                 <button onClick={handleMenuClick}><MdMenu className='w-6 h-6 m-auto mx-2'/></button>
                 <button><img className='w-9 h-9 mx-2 align-middle' src="https://www.freeiconspng.com/uploads/hd-youtube-logo-png-transparent-background-20.png" width="350" alt="Hd Youtube Logo Png Transparent Background" /></button>

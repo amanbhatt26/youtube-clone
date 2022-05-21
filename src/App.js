@@ -12,7 +12,7 @@ const  App = ()=>{
         <Header/>
         <Sidebar/>
         <VideoTray/>
-
+        
       </SidebarContextProvider>
     </div>
   );
